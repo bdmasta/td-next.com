@@ -1,0 +1,52 @@
+
+.hero-title {
+  margin:0;
+  color:#ffffff;
+  @include font-size(170px);
+  font-weight:200;
+}
+
+.hero-subtitle {
+  margin:0;
+  padding:10px 20px;
+  display:inline-block;
+  color:#ffffff;
+  @include font-size(40px);
+  border-radius:50px;
+}
+
+
+/*AJUST RESPONSIVE COLS*/
+.marketing {
+  margin-bottom:1.563em;
+  &:last-child {
+    margin-bottom:0;
+  }
+}
+
+@media (min-width: 768px)
+  {
+    .marketing:nth-last-child(2){
+      margin-bottom:0;
+    }
+  }
+
+@media (min-width: 992px) {
+    .marketing {margin-bottom:0;}
+}
+
+.offers {
+  margin-bottom:1.563em;
+  &:last-child {
+    margin-bottom:0;
+  }
+}
+
+@media (min-width: 992px) {
+    .offers {margin-bottom:0;}
+}
+
+
+
+
+.boxedcontainer		{	max-width: 1170px; margin:auto; padding:0px 30px;}

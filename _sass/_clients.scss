@@ -1,0 +1,103 @@
+#who_we_are {
+  border-bottom:1px solid #eaeaea;
+}
+
+.clients {
+  li {
+    a {
+      display:block;
+      height:127px;
+      width:127px;
+
+      @include border-radius (50%);
+      background-color:#ffffff;
+      background-repeat:no-repeat;
+      background-position:center center;
+      background-size:127px 127px;
+    }
+  }
+}
+
+#securitas {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/securitas_direct_nb@2x', png);
+}
+
+#verifone {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/verifone_nb@2x', png);
+}
+
+#thales {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/thales_nb@2x', png);
+}
+
+#veolia {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/veolia_nb@2x', png);
+}
+
+#tunstall {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/tunstall_nb@2x', png);
+}
+
+#mondial {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/mondial_assistance_nb@2x', png);
+}
+
+#mei {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/mei_nb@2x', png);
+}
+
+#intervox {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/intervox_nb@2x', png);
+}
+
+#bosch {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/bosch_nb@2x', png);
+}
+
+#chubb {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/chubb_nb@2x', png);
+}
+
+#edf {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/edf_enr_nb@2x', png);
+}
+
+#maaf {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/maaf_nb@2x', png);
+}
+
+#honeywell {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/honeywell_nb@2x', png);
+}
+
+#presence_verte {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/presence_verte_nb@2x', png);
+}
+
+#tokheim {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/tokheim_nb@2x', png);
+}
+
+#covea {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/covea_nb@2x', png);
+}
+
+#pitney {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/pitney_bowes_nb@2x', png);
+}
+
+#europ {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/europ_assistance_nb@2x', png);
+}
+
+#actaris {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/actaris_nb@2x', png);
+}
+
+#neopost {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/neopost_nb@2x', png);
+}
+
+#ingenico {
+  @include at2x('https://s3-eu-west-1.amazonaws.com/assetstdnext/img/clients/ingenico_nb@2x', png);
+}

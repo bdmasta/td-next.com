@@ -1,0 +1,14 @@
+# Site settings
+title: TD next•IoT provider working with Sigfox & Avnet Memec
+email: contact@td-next.com
+description: > # this means to ignore newlines until "baseurl:"
+  Division of Telecom Design. TD next is an Internet of Things worldwide enabler providing modules (Sigfox certified) and global solutions.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+host: 0.0.0.0
